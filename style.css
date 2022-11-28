@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap");
+
+* {
+  font-family: "Lato", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header img {
+  max-width: 150px;
+  margin: auto;
+}
+
+#result {
+  max-width: 930px;
+  margin: auto;
+  overflow: auto;
+}
+
+/*Default styles*/
+div.head {
+  float: left;
+  padding-top: 0px;
+  width: 650px;
+}
+div.info {
+  float: left;
+  margin-left: 10px;
+  border-left: 1px dashed #aaaaaa;
+  width: 265px;
+}
+
+table.tableform th {
+  text-align: left;
+}
+table.tableform th span {
+  color: #ff0000;
+  font-size: 13px;
+}
+div.result {
+  border-bottom: 1px solid #cccccc;
+}
+table.tableform {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+input,
+select {
+  border: none;
+  width: 99%;
+  font-size: 18px;
+  width: 200px;
+  height: 40px;
+  border: 1px solid #dddddd;
+  background: #ffffff;
+  box-shadow: 0px 0px 3px #dddddd;
+}
+div.footer {
+  width: 930px;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+div.footer_left {
+  float: left;
+  text-align: left;
+}
+div.footer_right {
+  float: right;
+  text-align: right;
+}
+h3 {
+  text-align: right;
+  margin: 0px;
+  padding: 20px 5px 0px 0px;
+  border-bottom: 1px dashed #aaaaaa;
+  font-weight: normal;
+}
+th {
+  text-align: right;
+  font-weight: normal;
+}
+input.submit {
+  height: 40px;
+  width: 110px;
+  color: #ffffff;
+  font-size: 16px;
+  background: -moz-linear-gradient(center top, #757575, #4b4b4b) repeat scroll 0
+    0 transparent;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#888),
+    to(#575757)
+  );
+  border-radius: 6px;
+}
+div.news {
+  width: 930px;
+  border: 1px solid #dddddd;
+  box-shadow: 0px 0px 3px #dddddd;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: left;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  min-height: 525px;
+}
+h1.info {
+  text-align: center;
+  color: #ff0000;
+}
