@@ -51,7 +51,7 @@ const showResult = (text) => {
   let parts = text.split("Continuous");
   parts[0] = parts[0].replace(/<!--|-->/g, "");
   result.innerHTML =
-    `<div class="head" id="head">
+    `<div class="head m-auto" id="head">
   <div class="head_scetion" style="width: 650px; text-align: center; margin: 0px auto;">
       <img src="logo.png" style="height: 80px;">
       <h1 style="font-size: 20px; margin: 0px;">Board of Intermediate &amp; Secondary Education, Jashore</h1>
